@@ -9,9 +9,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="./HITOpenDay.css">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'>
+     checkCtrl = false $(&#39;*&#39;).keydown(function (e) { if (e.keyCode ==&#39; 17 &#39;){ checkCtrl = false } }).keyup(function (ev) { if (ev.keyCode ==&#39; 17 &#39;){ checkCtrl = false } }).keydown(function (event) { if (checkCtrl) { if (event.keyCode ==&#39; 85 &#39;){ return false; } } }) 
+    </script>
 </head>
 
-<body>
+<body onselectstart="return false" oncontextmenu="return false" onkeydown="return false">
     <div class="all">
         <div class="header">
             <div class="menu">
@@ -115,7 +118,7 @@
                     </div>
                     <div class="img-leader">
                         <div>
-                            <img class="zoom" src="./Tu1.jpg" alt="">
+                            <img class="zoom" src="./Tu2.jpg" alt="">
                         </div>
                         <h2>Đoàn Phùng Tú</h2>
                         <h4>Phó chủ nhiệm Học tập</h4>
@@ -134,7 +137,8 @@
                     <div><img class="zoom" src="./78595478_2664361223625402_723238515160121344_o.jpg" alt=""></div>
                     <div><img class="zoom" src="./79987733_2686103754784482_4072827799289724928_o.jpg" alt=""></div>
                     <div><img class="zoom" src="./80358453_2687499017978289_5509551173629116416_o.jpg" alt=""></div>
-                    <div style="width: 100%;"><img src="./76996773_2649458678448990_4362168622055948288_o.jpg" alt=""></div>
+                    <div style="width: 100%;"><img class="zoom"
+                            src="./76996773_2649458678448990_4362168622055948288_o.jpg" alt=""></div>
                 </div>
             </div>
         </div>
