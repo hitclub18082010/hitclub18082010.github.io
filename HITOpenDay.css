@@ -77,10 +77,10 @@ body {
 }
 
 .ul-menu li:hover {
-    background-color: green;
-    color: white;
+    /* background-color: orange; */
+    color: red;
     cursor: pointer;
-    box-shadow: rgb(214, 214, 214) 5px 5px 5px;
+    /* box-shadow: rgb(214, 214, 214) 5px 5px 5px; */
 }
 
 .img-header {
